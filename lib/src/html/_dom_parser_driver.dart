@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:universal_html/src/html.dart';
+import 'package:universal_html_compat/src/html.dart';
 
 import '_html_parser.dart' as html;
 import '_xml_parser.dart' as xml;

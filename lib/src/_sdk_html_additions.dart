@@ -20,7 +20,7 @@ import 'dart:io';
 ///
 /// ## Example
 /// ```dart
-/// import 'package:universal_html/html.dart';
+/// import 'package:universal_html_compat/html.dart';
 /// import 'dart:io' show Cookie;
 ///
 /// Future<void> main() async {

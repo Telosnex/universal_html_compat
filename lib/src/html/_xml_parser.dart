@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import 'package:charcode/ascii.dart';
-import 'package:universal_html/src/html.dart';
+import 'package:universal_html_compat/src/html.dart';
 
 const _xmlEntities = <String, String>{
   'amp': '&',

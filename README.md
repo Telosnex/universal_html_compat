@@ -64,7 +64,7 @@ void main() {
 Use [parseHtmlDocument](https://pub.dev/documentation/universal_html/latest/universal_html.parsing/parseHtmlDocument.html):
 
 ```dart
-import 'package:universal_html/parsing.dart';
+import 'package:universal_html_compat/parsing.dart';
 
 void main() {
   final htmlDocument = parseHtmlDocument('<html>...</html>');
@@ -75,7 +75,7 @@ void main() {
 Use [parseXmlDocument](https://pub.dev/documentation/universal_html/latest/universal_html.parsing/parseXmlDocument.html):
 
 ```dart
-import 'package:universal_html/parsing.dart';
+import 'package:universal_html_compat/parsing.dart';
 
 void main() {
   final xmlDocument = parseXmlDocument('<xml>...</xml>');
@@ -87,7 +87,7 @@ Load a _Window_ with [WindowController](https://pub.dev/documentation/universal_
 
 ```dart
 import 'dart:io' show Cookie;
-import 'package:universal_html/controller.dart';
+import 'package:universal_html_compat/controller.dart';
 
 Future main() async {
   // Load a document.
@@ -121,7 +121,7 @@ is a browser API for reading "application/event-stream" streams. It has been sup
 for a long time.
 
 ```dart
-import 'package:universal_html/html.dart';
+import 'package:universal_html_compat/html.dart';
 
 Future<void> main() async {
   final eventSource = EventSource('http://example.com/events');
@@ -136,7 +136,7 @@ EventSource requests from real browsers are typically authenticated using cookie
 If you want to add cookies or customize other HTTP headers, you need to use
 [EventSourceOutsideBrowser](https://pub.dev/documentation/universal_html/latest/universal_html/EventSourceOutsideBrowser-class.html):
 ```dart
-import 'package:universal_html/universal_html.dart';
+import 'package:universal_html_compat/universal_html.dart';
 import 'dart:io' show Cookie;
 
 Future<void> main() async {
@@ -165,7 +165,7 @@ Future<void> main() async {
 
 ## Testing
 ```dart
-import 'package:universal_html/controller.dart';
+import 'package:universal_html_compat/controller.dart';
 import 'package:test/test.dart';
 
 void main() {

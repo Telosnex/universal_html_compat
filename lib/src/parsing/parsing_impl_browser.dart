@@ -12,9 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'dart:html';
 
-import 'package:universal_html/html.dart';
+import 'package:universal_html_compat/html.dart';
 
 HtmlDocument parseHtmlDocument({
   required Window window,

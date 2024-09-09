@@ -12,16 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:universal_html/html.dart';
+import 'package:universal_html_compat/html.dart';
 
-import 'internal_element_data_impl_others.dart'
-    if (dart.library.html) 'internal_element_data_impl_browser.dart' as impl;
+import 'internal_element_data_impl_others.dart' as impl;
 
 /// Internal data of [Element].
 ///
 /// # Example
 /// ```
-/// import 'package:universal_html/html.dart';
+/// import 'package:universal_html_compat/html.dart';
 ///
 /// void main() {
 ///   final element = DivElement();

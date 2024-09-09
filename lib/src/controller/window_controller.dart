@@ -16,18 +16,18 @@ import 'dart:async';
 import 'dart:convert' show utf8;
 import 'dart:io';
 
-import 'package:universal_html/controller.dart';
-import 'package:universal_html/html.dart' as html;
-import 'package:universal_html/html.dart' hide File;
-import 'package:universal_html/parsing.dart' as parsing;
+import 'package:universal_html_compat/controller.dart';
+import 'package:universal_html_compat/html.dart' as html;
+import 'package:universal_html_compat/html.dart' hide File;
+import 'package:universal_html_compat/parsing.dart' as parsing;
 import 'package:universal_io/io.dart' show newUniversalHttpClient;
 
 /// Defines behavior of the browser APIs (such as navigation events).
 ///
 /// # Example
 /// ```
-/// import 'package:universal_html/controller.dart';
-/// import 'package:universal_html/parsing.dart';
+/// import 'package:universal_html_compat/controller.dart';
+/// import 'package:universal_html_compat/parsing.dart';
 ///
 /// Future<void> main() async {
 ///   final controller = WindowController();
@@ -42,7 +42,7 @@ import 'package:universal_io/io.dart' show newUniversalHttpClient;
 ///
 /// ## Testing
 /// ```dart
-/// import 'package:universal_html/controller.dart';
+/// import 'package:universal_html_compat/controller.dart';
 /// import 'package:test/test.dart';
 ///
 /// void main() {
@@ -130,7 +130,7 @@ class WindowController {
   ///
   /// ## Example
   /// ```dart
-  /// import 'package:universal_html/controller.dart';
+  /// import 'package:universal_html_compat/controller.dart';
   ///
   /// void main() {
   ///   final controller = WindowController();
@@ -195,7 +195,7 @@ class WindowController {
   /// ## Example
   /// ```dart
   /// import 'dart:io';
-  /// import 'package:universal_html/controller.dart';
+  /// import 'package:universal_html_compat/controller.dart';
   ///
   /// void main() {
   ///   final controller = WindowController();
@@ -217,7 +217,7 @@ class WindowController {
   /// # Example
   /// ```
   /// import 'dart:io' show Cookie;
-  /// import 'package:universal_html/controller.dart';
+  /// import 'package:universal_html_compat/controller.dart';
   ///
   /// Future main() async {
   ///   // Load a document.
@@ -302,7 +302,7 @@ class WindowController {
   ///
   /// ## Example
   /// ```
-  /// import 'package:universal_html/html.dart;
+  /// import 'package:universal_html_compat/html.dart;
   ///
   /// void main() {
   ///   final zone = WindowController.newZone();

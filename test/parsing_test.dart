@@ -15,8 +15,8 @@
 library parsing_test;
 
 import 'package:test/test.dart';
-import 'package:universal_html/html.dart';
-import 'package:universal_html/parsing.dart';
+import 'package:universal_html_compat/html.dart';
+import 'package:universal_html_compat/parsing.dart';
 
 const _ = '';
 

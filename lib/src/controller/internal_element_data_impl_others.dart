@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:universal_html/src/html.dart';
+import 'package:universal_html_compat/src/html.dart';
 
 import 'internal_element_data.dart';
 
-export 'package:universal_html/src/html.dart' show Element;
+export 'package:universal_html_compat/src/html.dart' show Element;
 
 InternalElementData ofElement(Element element) {
   return element.internalElementData;

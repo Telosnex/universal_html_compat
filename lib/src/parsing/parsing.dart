@@ -12,18 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:universal_html/html.dart';
-import 'package:universal_html/html.dart' as universal_html;
+import 'package:universal_html_compat/html.dart';
+import 'package:universal_html_compat/html.dart' as universal_html;
 
-import 'parsing_impl_browser.dart'
-    if (dart.library.html) 'parsing_impl_browser.dart' // Browser
-    if (dart.library.io) 'parsing_impl_vm.dart' // VM
-    if (dart.library.js) 'parsing_impl_vm.dart' as impl; // Node.JS
+import 'parsing_impl_vm.dart' as impl;
 
 /// Parses a [HtmlDocument].
 ///
 /// ```
-/// import 'package:universal_html/parsing.dart';
+/// import 'package:universal_html_compat/parsing.dart';
 ///
 /// void main() {
 ///   final document = parseHtmlDocument('<html>...</html>');
@@ -43,7 +40,7 @@ HtmlDocument parseHtmlDocument(
 /// Parses an [XmlDocument].
 ///
 /// ```
-/// import 'package:universal_html/parsing.dart';
+/// import 'package:universal_html_compat/parsing.dart';
 ///
 /// void main() {
 ///   final document = parseXmlDocument('<xml>...</xml>');

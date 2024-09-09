@@ -1,4 +1,4 @@
-import 'package:universal_html/html.dart';
+import 'package:universal_html_compat/html.dart';
 
 void main() {
   // Create a DOM tree

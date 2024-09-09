@@ -31,7 +31,8 @@ import 'package:csslib/parser.dart' as css;
 import 'package:csslib/visitor.dart' as css;
 import 'package:meta/meta.dart';
 import 'package:typed_data/typed_buffers.dart';
-import 'package:universal_html/html.dart' as universal_html_in_browser_or_vm;
+import 'package:universal_html_compat/html.dart'
+    as universal_html_in_browser_or_vm;
 
 import '../controller.dart';
 import 'html.dart' as universal_html;

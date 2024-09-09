@@ -17,7 +17,7 @@ import 'dart:convert';
 
 import 'package:typed_data/typed_buffers.dart';
 // ignore: deprecated_member_use_from_same_package
-import 'package:universal_html/src/html.dart';
+import 'package:universal_html_compat/src/html.dart';
 
 /// Decodes 'application/event-stream' streams.
 class EventStreamDecoder

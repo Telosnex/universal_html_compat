@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:universal_html/parsing.dart';
+import 'package:universal_html_compat/parsing.dart';
 
 void main() {
   parseHtmlDocument('<html></html>');

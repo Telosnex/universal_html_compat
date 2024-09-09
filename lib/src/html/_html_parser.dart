@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:html/dom.dart' as html_parsing;
-import 'package:html/parser.dart' as html_parsing;
-import 'package:universal_html/src/html.dart';
-import 'package:universal_html/src/svg.dart';
+import 'package:universal_html_compat/src/dart_html_parser/dom.dart' as html_parsing;
+import 'package:universal_html_compat/src/dart_html_parser/parser.dart' as html_parsing;
+import 'package:universal_html_compat/src/html.dart';
+import 'package:universal_html_compat/src/svg.dart';
 
 DocumentFragment parseDocumentFragmentFromHtml({
   required Document ownerDocument,

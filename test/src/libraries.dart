@@ -13,11 +13,11 @@
 // limitations under the License.
 
 import 'package:test/test.dart';
-import 'package:universal_html/html.dart' as default_html;
-import 'package:universal_html/indexed_db.dart' as default_indexed_db;
-import 'package:universal_html/js.dart' as default_js;
-import 'package:universal_html/js_util.dart' as default_js_util;
-import 'package:universal_html/svg.dart' as default_svg;
+import 'package:universal_html_compat/html.dart' as default_html;
+import 'package:universal_html_compat/indexed_db.dart' as default_indexed_db;
+import 'package:universal_html_compat/js.dart' as default_js;
+import 'package:universal_html_compat/js_util.dart' as default_js_util;
+import 'package:universal_html_compat/svg.dart' as default_svg;
 
 void testLibraries() {
   test("'{libraryName}.dart", () {
